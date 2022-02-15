@@ -1,6 +1,6 @@
 Name:          codenarc
 Version:       0.24.1
-Release:       6
+Release:       7
 Summary:       A static analysis tool for Groovy source code
 License:       ASL 2.0
 Url:           http://codenarc.github.io/CodeNarc/
@@ -89,5 +89,8 @@ cp -p src/main/groovy/org/codenarc/analyzer/SuppressionAnalyzer.java \
 %files help -f .mfiles-javadoc
 
 %changelog
+* Mon Feb 14 2022 wangkai <wangkai385@huawei.com> - 0.24.1-7
+- Rebuild for fix log4j1.x cves
+
 * Thu Mar 5 2020 tangjing <tangjing30@huawei.com> - 0.24.1-6
 - Package init
